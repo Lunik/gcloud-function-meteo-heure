@@ -1,0 +1,72 @@
+{
+  "idLieu": "692660",
+  "echeance": "201807310920",
+  "lastUpdate": "09h05",
+  "isAvailable": true,
+  "hasData": true,
+  "niveauPluieText": [
+    "De09h20 à 10h20 : Pas de précipitations"
+  ],
+  "dataCadran": [
+    {
+      "niveauPluieText": "Pas de précipitations",
+      "niveauPluie": 1,
+      "color": "ffffff"
+    },
+    {
+      "niveauPluieText": "Pas de précipitations",
+      "niveauPluie": 1,
+      "color": "ffffff"
+    },
+    {
+      "niveauPluieText": "Pas de précipitations",
+      "niveauPluie": 1,
+      "color": "ffffff"
+    },
+    {
+      "niveauPluieText": "Pas de précipitations",
+      "niveauPluie": 1,
+      "color": "ffffff"
+    },
+    {
+      "niveauPluieText": "Pas de précipitations",
+      "niveauPluie": 1,
+      "color": "ffffff"
+    },
+    {
+      "niveauPluieText": "Pas de précipitations",
+      "niveauPluie": 1,
+      "color": "ffffff"
+    },
+    {
+      "niveauPluieText": "Pas de précipitations",
+      "niveauPluie": 1,
+      "color": "ffffff"
+    },
+    {
+      "niveauPluieText": "Pas de précipitations",
+      "niveauPluie": 1,
+      "color": "ffffff"
+    },
+    {
+      "niveauPluieText": "Pas de précipitations",
+      "niveauPluie": 1,
+      "color": "ffffff"
+    },
+    {
+      "niveauPluieText": "Pas de précipitations",
+      "niveauPluie": 1,
+      "color": "ffffff"
+    },
+    {
+      "niveauPluieText": "Pas de précipitations",
+      "niveauPluie": 1,
+      "color": "ffffff"
+    },
+    {
+      "niveauPluieText": "Pas de précipitations",
+      "niveauPluie": 1,
+      "color": "ffffff"
+    }
+  ]
+}
