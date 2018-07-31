@@ -8,5 +8,5 @@ const Meteo = require('./lib/meteo.js')
 
 exports.meteo = (req, res) => {
   let meteo = new Meteo()
-  meteo.report().then(res.json).catch(res.json)
+  meteo.report().then(res.json).catch((err) => res.end(err))
 }
