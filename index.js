@@ -7,9 +7,11 @@
 const Meteo = require('./lib/meteo.js')
 
 exports.meteo = (req, res) => {
-  let meteo = new Meteo()
-  let responseFormat = req.query.format || 'json'
+  let responseFormat = req.query.format || 'text'
   let lang = req.query.lang || 'fr'
+  let location = req.query.location || 692660
+  
+  let meteo = new Meteo(location)
   
   meteo.report(responseFormat, lang).then((response) => {
     switch (responseFormat) {
