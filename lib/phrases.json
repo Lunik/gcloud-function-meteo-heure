@@ -6,7 +6,7 @@
     "Il devrait y avoir {{ weather }} jusqu'à {{ time }}",
     "Il faudra s'attendre à avoir {{ weather }} à partir de {{ time }}",
     "{{ weather }} est prévu à partir de fin {{ time }}",
-    "La météo anonce {{ weather }} jusqu'à {{ time }}",
+    "La météo annonce {{ weather }} jusqu'à {{ time }}",
     "Vers {{ time }} il devrait y avoir {{ weather }}"
   ]
 }
