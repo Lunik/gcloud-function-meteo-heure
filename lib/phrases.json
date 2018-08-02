@@ -1,5 +1,7 @@
 {
-  "en": [],
+  "en": [
+    "There will be {{ weather }} until {{ time }}
+  ],
   "fr": [
     "Il devrait y avoir {{ weather }} jusqu'à {{ time }}",
     "Il faudra s'attendre à avoir {{ weather }} à partir de {{ time }}";
