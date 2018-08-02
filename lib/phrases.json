@@ -1,6 +1,6 @@
 {
   "en": [
-    "There will be {{ weather }} until {{ time }}
+    "There will be {{ weather }} until {{ time }}"
   ],
   "fr": [
     "Il devrait y avoir {{ weather }} jusqu'à {{ time }}",
