@@ -8,11 +8,16 @@ const Meteo = require('./lib/meteo.js')
 
 exports.meteo = (req, res) => {
   let meteo = new Meteo()
-  let responseType = req.query.format || 'json'
+  let responseFormat = req.query.format || 'json'
   let lang = req.query.lang || 'fr'
   
-  meteo.report(responseType, lang).then((response) => {
-    res.json(response)
+  meteo.report(responseFormat, lang).then((response) => {
+    switch (responseFormat) {
+      case 'json':
+        res.json(response)
+      case 'text':
+        res.end(response)
+    }
   }).catch((err) => {
     console.log(err)
     res.status(500)
