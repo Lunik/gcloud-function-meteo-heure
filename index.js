@@ -8,12 +8,11 @@ const Meteo = require('./lib/meteo.js')
 
 exports.meteo = (req, res) => {
   let meteo = new Meteo()
-  console.log("Begin")
-  meteo.report().then((response) => {
-    console.log("End")
+  let responseType = req.query.format || 'json'
+  
+  meteo.report(responseType).then((response) => {
     res.json(response)
   }).catch((err) => {
-    console.log("Error")
     console.log(err)
     res.status(500)
     res.json(JSON.stringify(err))
